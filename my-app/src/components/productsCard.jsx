@@ -1,8 +1,8 @@
-const ProiductCard = () => {
+const ProductCard = () => {
     return (  
         <>
         </>
     );
 }
  
-export default ProiductCard;
+export default ProductCard;
