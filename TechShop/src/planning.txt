@@ -1,0 +1,28 @@
+Minimal Features for a Small React E-commerce Site:
+- Product Catalog: Displays a list of all available products, optionally grouped by categories. Users can browse, filter, and search for products.
+- Product Details Page: Shows detailed information about a selected product, including images, description, price, and an option to add the item to the cart.
+- Shopping Cart: Allows users to view items they have added, update quantities, remove products, and see the total price before checkout.
+- Simple Checkout: Provides a summary of the order, collects minimal user information (like name and address), and confirms the order. No payment processing is included.
+- Basic User Authentication (optional): Enables users to register, log in, and manage their account. Useful for saving order history and personalizing the experience.
+- Responsive Design: Ensures the site looks and works well on all devices, including desktops, tablets, and smartphones.
+1. Product Catalog (listing, categories)
+2. Product Details Page
+3. Shopping Cart
+4. Simple Checkout (no payment gateway, just order summary)
+5. Basic User Authentication (optional)
+6. Responsive Design (mobile-friendly)
+
+
+
+
+
+API Endpoints Needed:
+
+- GET /api/products - List all products
+- GET /api/products/:id - Get details for a single product
+- GET /api/categories - List all product categories
+- POST /api/cart - Add item to cart
+- GET /api/cart - Get current cart contents
+- POST /api/checkout - Submit order (returns order summary)
+- POST /api/auth/login - User login (optional)
+- POST /api/auth/register - User registration (optional)

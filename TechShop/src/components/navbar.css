@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('../assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.root {
+
+    display: flex;
+
+}
+
+.root .nav {
+    display: flex;
+    list-style: none;
+    align-content: space-between;
+    justify-self: center;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+
+}
+
+input {
+    margin: 10px;
+    height: 10px;
+    padding: 10px;
+
+}
+
+h1 {
+    margin: 10px;
+}

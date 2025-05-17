@@ -1,5 +1,4 @@
-
-
+import './home.css'
 
 const HomePage = () => {
     return ( 
